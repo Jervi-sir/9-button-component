@@ -1,0 +1,283 @@
+/*---- Color palette 
+
+	orange: #F7542E;
+	grey1 : #4F4F4F;
+	grey2 : #9E9E9E;
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+/*----[[Global]]-----*/
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+}
+
+
+
+/*---{styling}----*/
+
+/*---aside---*/
+
+aside header {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 19px;
+
+	color: black;
+}
+
+aside header span {
+	color: #F7542E;
+	padding: 0;
+	margin-right: 0;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside ul li {
+	font-family: Noto Sans JP;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+
+	color: #9E9E9E;
+}
+
+aside header ul li.active {
+	font-weight: bold;
+
+	color: #090F31;
+}
+
+
+/*-- Main --*/
+main h1 {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+
+	color: #4F4F4F;
+}
+
+main .row .button label {
+	font-family: Ubuntu Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+
+	color: #333333;
+}
+
+main .row .hover label {
+	font-family: Ubuntu Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+	text-align: center;
+
+	color: #828282;
+}
+
+main .row button {
+	border-radius: 6px; 
+	border-style: none;
+	padding: .5em 1em;
+}
+
+/* default -1- */
+main .default .button button {
+	background: #E0E0E0;
+	box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+main .default .hover button{
+	background: #AEAEAE;
+	box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+/* outline -2- */
+main .outline .button button {
+	background: transparent;
+	border: 1px solid #3D5AFE;
+	color: #3D5AFE;
+}
+
+main .outline .hover button{
+	background: rgba(41, 98, 255, 0.1);
+	border: 1px solid #3D5AFE;
+	color: #3D5AFE;
+
+}
+
+/* text -3- */
+main .text .button button {
+	background: transparent;
+	border: transparent;
+	color: #3D5AFE;
+}
+
+main .text .hover button{
+	background: rgba(41, 98, 255, 0.1);
+	color: #3D5AFE;
+}
+
+/* disableShawdow -4- */
+
+main .disableShadow .button button {
+	background: #3D5AFE;
+	color: #FFFFFF;
+}
+
+/* disable -5- */
+main .disable .button button {
+	background: #E0E0E0;
+	color: #9E9E9E;
+}
+
+main .disable .hover button{
+	background: transparent;
+	color: #9E9E9E;
+}
+
+
+/* local_grocery_store -6- */
+main .local_grocery_store .start button{
+	background: #2962FF;
+	box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+	color: #ffffff;
+}
+
+main .local_grocery_store .end button{
+	background: #2962FF;
+	box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+	color: #ffffff;
+}
+
+/* sm md lg -7- */
+main .size button {
+	background: #2962FF;
+	box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+	color: white;
+}
+
+
+/*-- Color -8-  */
+/*default*/
+main .color .default .button button {
+	background: #E0E0E0;
+	box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);	
+	color: #3F3F3F;
+}
+
+main .color .default .hover button{
+	background: #AEAEAE;
+	box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);	
+	color: #3F3F3F;
+}
+
+/*primary*/
+main .color .primary .button button {
+	background: #2962FF;
+	box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+	color: #ffffff;
+}
+
+main .color .primary .hover button{
+	background: #0039CB;
+	box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);	
+	color: #ffffff;
+}
+
+/*secondary*/
+main .color .secondary .button button {
+	background: #455A64;
+	box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+	color: white;
+}
+
+main .color .secondary .hover button{
+	background: #1C313A;
+	box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);	
+	color: white;
+} 
+
+/*danger */
+main .color .danger .button button {
+	background: #D32F2F;
+	box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+	color: white;
+}
+
+main .color .danger .hover button{
+	background: #9A0007;
+	box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);	
+	color: white;
+}
+
+
+main .row.link {
+	font-family: Ubuntu Mono;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+
+	color: #828282;
+}
+
+
+
+footer {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #A9A9A9;	
+}
+
+
+
+/*--- [[structure]] ---*/
+.page {
+	display: flex;
+
+}
+
+main .row {
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
