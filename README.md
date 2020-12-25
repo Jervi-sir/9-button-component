@@ -37,7 +37,7 @@
 ## Overview
 
 ### Larger Screen 
- <img src="screenshots/default.png">
+ <img src="screenshots/default.png" width="100%">
 
 ### Built With
 
